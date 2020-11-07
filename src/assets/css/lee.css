@@ -1,0 +1,73 @@
+/* 鼠标悬浮样式 */
+.lee-Cursor-Pointer {
+    cursor: pointer
+}
+
+/* 颜色主题 */
+.lee-Black-BGC {
+    background-color: #040404;
+}
+
+/* 布局排版 */
+.lee-Flex {
+    display: flex;
+}
+.lee-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* 显示隐藏 */
+.lee-display-none{
+    display: none;
+}
+.lee-display-block{
+    display: block;
+}
+/* 渐变色样式 */
+#lee-liner-Gradients {
+    /* 头部导航栏 */
+    width: 1px;
+    height: 100%;
+    background-image: radial-gradient(#a8a8a8, rgba(255, 255, 255, 0) 40%);
+}
+#lee-liner-Gradients-X {
+    /* 头部导航栏 */
+    width: 100%;
+    height: 3px;
+    background-image: radial-gradient(#a8a8a8, rgba(255, 255, 255, 0) 50%);
+}
+
+/* 边距数值 */
+.lee-Padding-Top-130 {
+    padding-top: 130px;
+}
+.lee-Padding-Top-100{
+    padding-top: 100px;
+}
+.lee-Margin-Bottom-20 {
+    margin-bottom: 20px;
+}
+
+.lee-Margin-TB-20 {
+    margin: 20px 0;
+}
+.lee-Padding-TB-20 {
+    padding: 20px 0;
+}
+
+.lee-Margin-LR-5 {
+    margin: 0 5px;
+}
+
+/* 自定义按钮样式 */
+.lee-btn-line-white {
+    border-radius: 3px;
+    border: solid #a8a8a8 1px;
+    color: #a8a8a8;
+    background-color: transparent;
+    cursor: pointer
+}
+
+.lee-btn-line-white:hover {
+    color: #ffffff;
+}
