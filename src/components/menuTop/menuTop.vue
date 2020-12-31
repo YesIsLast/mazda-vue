@@ -99,6 +99,8 @@
       >
       </span>
     </div>
+    <!-- PC端菜单下拉页面 -->
+    <brand />
 
     <!-- 移动端--菜单弹出框NAV -->
     <div
@@ -163,8 +165,12 @@
   </div>
 </template>
 <script>
+import brand from "./childComponents/brand"
 export default {
   name: "menuTop",
+  components:{
+brand
+  },
   data() {
     return {
       menubtnStatus: true, // 菜单打开状态 true 打开按钮 false 关闭按钮
@@ -220,7 +226,9 @@ export default {
   align-items: center; /* 垂直居中 */
 }
 .menuActive {
-  border-bottom: solid red 1px;
+  position: relative;
+  border-bottom: solid red 3px;
+  top: -2px;
 }
 .menuActive-Y {
   border-left: solid red 2px;
